@@ -5,7 +5,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   site: 'https://petricadamian.github.io/carlasvision-website',
   // if repo name is not the root domain, also add:
-  base: '/carlasvision-website',
+  base: '/carlasvision-website/',
   i18n: {
     defaultLocale: "ro",
     locales: ["ro", "en"],
